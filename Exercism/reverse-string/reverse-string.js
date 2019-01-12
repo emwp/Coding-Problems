@@ -1,4 +1,4 @@
-const reverseString = str => {
+export const reverseString = str => {
   let reversed = str
     .split('')
     .reverse()
@@ -11,4 +11,4 @@ const reverseString = str => {
   }
 };
 
-console.log(reverseString('racecar'));
+// console.log(reverseString('racecar'));
